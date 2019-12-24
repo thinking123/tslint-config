@@ -1,0 +1,437 @@
+[
+    {
+        "type": "tag",
+        "parent": null,
+        "prev": null,
+        "next": null,
+        "startIndex": 0,
+        "endIndex": 2166,
+        "children": [
+            {
+                "type": "tag",
+                "parent": "~0",
+                "prev": null,
+                "next": {
+                    "type": "tag",
+                    "parent": "~0",
+                    "prev": "~0~children~0",
+                    "next": {
+                        "type": "tag",
+                        "parent": "~0",
+                        "prev": "~0~children~0~next",
+                        "next": {
+                            "type": "tag",
+                            "parent": "~0",
+                            "prev": "~0~children~0~next~next",
+                            "next": {
+                                "type": "tag",
+                                "parent": "~0",
+                                "prev": "~0~children~0~next~next~next",
+                                "next": null,
+                                "startIndex": 1522,
+                                "endIndex": 2160,
+                                "children": [
+                                    {
+                                        "type": "tag",
+                                        "parent": "~0~children~0~next~next~next~next",
+                                        "prev": null,
+                                        "next": null,
+                                        "startIndex": 1620,
+                                        "endIndex": 2151,
+                                        "children": [
+                                            {
+                                                "type": "tag",
+                                                "parent": "~0~children~0~next~next~next~next~children~0",
+                                                "prev": null,
+                                                "next": {
+                                                    "type": "tag",
+                                                    "parent": "~0~children~0~next~next~next~next~children~0",
+                                                    "prev": "~0~children~0~next~next~next~next~children~0~children~0",
+                                                    "next": null,
+                                                    "startIndex": 1712,
+                                                    "endIndex": 2145,
+                                                    "children": [
+                                                        {
+                                                            "type": "tag",
+                                                            "parent": "~0~children~0~next~next~next~next~children~0~children~0~next",
+                                                            "prev": null,
+                                                            "next": {
+                                                                "type": "tag",
+                                                                "parent": "~0~children~0~next~next~next~next~children~0~children~0~next",
+                                                                "prev": "~0~children~0~next~next~next~next~children~0~children~0~next~children~0",
+                                                                "next": {
+                                                                    "type": "tag",
+                                                                    "parent": "~0~children~0~next~next~next~next~children~0~children~0~next",
+                                                                    "prev": "~0~children~0~next~next~next~next~children~0~children~0~next~children~0~next",
+                                                                    "next": null,
+                                                                    "startIndex": 2072,
+                                                                    "endIndex": 2139,
+                                                                    "children": [],
+                                                                    "name": "CButton",
+                                                                    "attribs": {
+                                                                        "text": "确认",
+                                                                        "@tap.native": "handleSetTime",
+                                                                        "external-cls": "row2"
+                                                                    }
+                                                                },
+                                                                "startIndex": 1901,
+                                                                "endIndex": 2071,
+                                                                "children": [
+                                                                    {
+                                                                        "type": "tag",
+                                                                        "parent": "~0~children~0~next~next~next~next~children~0~children~0~next~children~0~next",
+                                                                        "prev": null,
+                                                                        "next": null,
+                                                                        "startIndex": 1923,
+                                                                        "endIndex": 2064,
+                                                                        "children": [
+                                                                            {
+                                                                                "type": "tag",
+                                                                                "parent": "~0~children~0~next~next~next~next~children~0~children~0~next~children~0~next~children~0",
+                                                                                "prev": null,
+                                                                                "next": null,
+                                                                                "startIndex": 2013,
+                                                                                "endIndex": 2055,
+                                                                                "children": [
+                                                                                    {
+                                                                                        "type": "text",
+                                                                                        "parent": "~0~children~0~next~next~next~next~children~0~children~0~next~children~0~next~children~0~children~0",
+                                                                                        "prev": null,
+                                                                                        "next": null,
+                                                                                        "startIndex": 2034,
+                                                                                        "endIndex": 2048,
+                                                                                        "data": "时间: {{seLtime}}"
+                                                                                    }
+                                                                                ],
+                                                                                "name": "view",
+                                                                                "attribs": {
+                                                                                    "class": "picker"
+                                                                                }
+                                                                            }
+                                                                        ],
+                                                                        "name": "picker",
+                                                                        "attribs": {
+                                                                            "mode": "time",
+                                                                            "value": "{{seLtime}}",
+                                                                            "start": "{{startTime}}",
+                                                                            "bindchange": "bindTimeChange"
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "name": "view",
+                                                                "attribs": {
+                                                                    "class": "section"
+                                                                }
+                                                            },
+                                                            "startIndex": 1730,
+                                                            "endIndex": 1900,
+                                                            "children": [
+                                                                {
+                                                                    "type": "tag",
+                                                                    "parent": "~0~children~0~next~next~next~next~children~0~children~0~next~children~0",
+                                                                    "prev": null,
+                                                                    "next": null,
+                                                                    "startIndex": 1752,
+                                                                    "endIndex": 1893,
+                                                                    "children": [
+                                                                        {
+                                                                            "type": "tag",
+                                                                            "parent": "~0~children~0~next~next~next~next~children~0~children~0~next~children~0~children~0",
+                                                                            "prev": null,
+                                                                            "next": null,
+                                                                            "startIndex": 1842,
+                                                                            "endIndex": 1884,
+                                                                            "children": [
+                                                                                {
+                                                                                    "type": "text",
+                                                                                    "parent": "~0~children~0~next~next~next~next~children~0~children~0~next~children~0~children~0~children~0",
+                                                                                    "prev": null,
+                                                                                    "next": null,
+                                                                                    "startIndex": 1863,
+                                                                                    "endIndex": 1877,
+                                                                                    "data": "日期: {{seLdate}}"
+                                                                                }
+                                                                            ],
+                                                                            "name": "view",
+                                                                            "attribs": {
+                                                                                "class": "picker"
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "name": "picker",
+                                                                    "attribs": {
+                                                                        "mode": "date",
+                                                                        "value": "{{seLdate}}",
+                                                                        "start": "{{startDate}}",
+                                                                        "bindchange": "bindDateChange"
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "name": "view",
+                                                            "attribs": {
+                                                                "class": "section"
+                                                            }
+                                                        },
+                                                        "~0~children~0~next~next~next~next~children~0~children~0~next~children~0~next",
+                                                        "~0~children~0~next~next~next~next~children~0~children~0~next~children~0~next~next"
+                                                    ],
+                                                    "name": "div",
+                                                    "attribs": {
+                                                        "class": "body"
+                                                    }
+                                                },
+                                                "startIndex": 1638,
+                                                "endIndex": 1711,
+                                                "children": [],
+                                                "name": "HeaderClose",
+                                                "attribs": {
+                                                    "text": "选择学习时间",
+                                                    "external-cls": "header",
+                                                    "@click": "timeShow=false"
+                                                }
+                                            },
+                                            "~0~children~0~next~next~next~next~children~0~children~0~next"
+                                        ],
+                                        "name": "div",
+                                        "attribs": {
+                                            "class": "time"
+                                        }
+                                    }
+                                ],
+                                "name": "CPopup",
+                                "attribs": {
+                                    ":show": "timeShow",
+                                    "position": "bottom",
+                                    "@close": "timeShow=false",
+                                    "zIndex": "1000",
+                                    "overlay": "{{ true }}"
+                                }
+                            },
+                            "startIndex": 915,
+                            "endIndex": 1521,
+                            "children": [
+                                {
+                                    "type": "tag",
+                                    "parent": "~0~children~0~next~next~next",
+                                    "prev": null,
+                                    "next": null,
+                                    "startIndex": 1012,
+                                    "endIndex": 1512,
+                                    "children": [
+                                        {
+                                            "type": "tag",
+                                            "parent": "~0~children~0~next~next~next~children~0",
+                                            "prev": null,
+                                            "next": {
+                                                "type": "tag",
+                                                "parent": "~0~children~0~next~next~next~children~0",
+                                                "prev": "~0~children~0~next~next~next~children~0~children~0",
+                                                "next": null,
+                                                "startIndex": 1103,
+                                                "endIndex": 1506,
+                                                "children": [
+                                                    {
+                                                        "type": "tag",
+                                                        "parent": "~0~children~0~next~next~next~children~0~children~0~next",
+                                                        "prev": null,
+                                                        "next": {
+                                                            "type": "tag",
+                                                            "parent": "~0~children~0~next~next~next~children~0~children~0~next",
+                                                            "prev": "~0~children~0~next~next~next~children~0~children~0~next~children~0",
+                                                            "next": {
+                                                                "type": "tag",
+                                                                "parent": "~0~children~0~next~next~next~children~0~children~0~next",
+                                                                "prev": "~0~children~0~next~next~next~children~0~children~0~next~children~0~next",
+                                                                "next": null,
+                                                                "startIndex": 1429,
+                                                                "endIndex": 1500,
+                                                                "children": [],
+                                                                "name": "CButton",
+                                                                "attribs": {
+                                                                    "text": "确认添加",
+                                                                    "@tap.native": "handleStartLearn",
+                                                                    "external-cls": "row"
+                                                                }
+                                                            },
+                                                            "startIndex": 1251,
+                                                            "endIndex": 1428,
+                                                            "children": [],
+                                                            "name": "CTopLabelInput",
+                                                            "attribs": {
+                                                                "label": "设置提醒时间",
+                                                                "placeholder": "到时会提醒您学习",
+                                                                ":btn": "timeTip",
+                                                                "@clickBtn": "handleLearnTip",
+                                                                ":val.sync": "learnTip",
+                                                                "readonly": "{{true}}",
+                                                                "@update": "handlelearnTip",
+                                                                "external-cls": "row"
+                                                            }
+                                                        },
+                                                        "startIndex": 1121,
+                                                        "endIndex": 1250,
+                                                        "children": [],
+                                                        "name": "CTopLabelInput",
+                                                        "attribs": {
+                                                            "label": "计划内容",
+                                                            "placeholder": "准备学点啥，如学习申论第一章",
+                                                            "external-cls": "row",
+                                                            "@update": "handlelearnContent",
+                                                            ":val.sync": "learnContent"
+                                                        }
+                                                    },
+                                                    "~0~children~0~next~next~next~children~0~children~0~next~children~0~next",
+                                                    "~0~children~0~next~next~next~children~0~children~0~next~children~0~next~next"
+                                                ],
+                                                "name": "div",
+                                                "attribs": {
+                                                    "class": "body"
+                                                }
+                                            },
+                                            "startIndex": 1031,
+                                            "endIndex": 1102,
+                                            "children": [],
+                                            "name": "HeaderClose",
+                                            "attribs": {
+                                                "text": "添加计划",
+                                                "external-cls": "header",
+                                                "@click": "planShow=false"
+                                            }
+                                        },
+                                        "~0~children~0~next~next~next~children~0~children~0~next"
+                                    ],
+                                    "name": "div",
+                                    "attribs": {
+                                        "class": "learn"
+                                    }
+                                }
+                            ],
+                            "name": "CPopup",
+                            "attribs": {
+                                ":show": "planShow",
+                                "position": "bottom",
+                                "@close": "planShow=false",
+                                "zIndex": "999",
+                                "overlay": "{{ true }}"
+                            }
+                        },
+                        "startIndex": 632,
+                        "endIndex": 914,
+                        "children": [
+                            {
+                                "type": "tag",
+                                "parent": "~0~children~0~next~next",
+                                "prev": null,
+                                "next": null,
+                                "startIndex": 782,
+                                "endIndex": 901,
+                                "children": [],
+                                "name": "SwipeItem",
+                                "attribs": {
+                                    "v-for": "c in clist2",
+                                    "external-cls": "row1",
+                                    "disabled": "{{true}}",
+                                    ":text1": "c.planContent",
+                                    ":text2": "c.planTime",
+                                    ":data": "c"
+                                }
+                            }
+                        ],
+                        "name": "CListWrap1",
+                        "attribs": {
+                            "eventName": "TList",
+                            ":type": "listtype2",
+                            ":reloadKey": "refreshKey2",
+                            ":params": "params2",
+                            ":show": "selectedTab == 1",
+                            "url": "/api/learnPlan/getLearnPlanList"
+                        }
+                    },
+                    "startIndex": 278,
+                    "endIndex": 631,
+                    "children": [
+                        {
+                            "type": "tag",
+                            "parent": "~0~children~0~next",
+                            "prev": null,
+                            "next": null,
+                            "startIndex": 428,
+                            "endIndex": 618,
+                            "children": [],
+                            "name": "SwipeItem",
+                            "attribs": {
+                                "v-for": "c in clist1",
+                                "external-cls": "row1",
+                                ":disabled": "disabled",
+                                ":text1": "c.planContent",
+                                ":text2": "c.planTime",
+                                ":data": "c",
+                                "@btnclick": "onSwipeItemSumbitClick",
+                                "@onSwipeItemClick": "onSwipeItemClick"
+                            }
+                        }
+                    ],
+                    "name": "CListWrap1",
+                    "attribs": {
+                        "eventName": "TList",
+                        ":type": "listtype1",
+                        ":reloadKey": "refreshKey1",
+                        ":params": "params1",
+                        ":show": "selectedTab == 0",
+                        "url": "/api/learnPlan/getLearnPlanList"
+                    }
+                },
+                "startIndex": 28,
+                "endIndex": 277,
+                "children": [
+                    {
+                        "type": "tag",
+                        "parent": "~0~children~0",
+                        "prev": null,
+                        "next": {
+                            "type": "tag",
+                            "parent": "~0~children~0",
+                            "prev": "~0~children~0~children~0",
+                            "next": null,
+                            "startIndex": 123,
+                            "endIndex": 271,
+                            "children": [],
+                            "name": "IconText",
+                            "attribs": {
+                                "@click.native": "onPlanShow",
+                                "v-if": "selectedTab == 0",
+                                "external-cls": "titleIcon",
+                                "external-img": "titleImg",
+                                ":text": "iconText.text",
+                                ":src": "iconText.src"
+                            }
+                        },
+                        "startIndex": 48,
+                        "endIndex": 122,
+                        "children": [],
+                        "name": "CTab",
+                        "attribs": {
+                            "type": "radius",
+                            ":tabs": "tabs",
+                            "@changeTab": "handleTab",
+                            "external-cls": "ctab"
+                        }
+                    },
+                    "~0~children~0~children~0~next"
+                ],
+                "name": "div",
+                "attribs": {
+                    "class": "header"
+                }
+            },
+            "~0~children~0~next",
+            "~0~children~0~next~next",
+            "~0~children~0~next~next~next",
+            "~0~children~0~next~next~next~next"
+        ],
+        "name": "div",
+        "attribs": {
+            "class": "page learnPlan"
+        }
+    }
+]
