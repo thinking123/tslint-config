@@ -8,6 +8,5 @@
         "tslint":true
     },
     "rulesDirectory": [
-        "tsRule"
     ]
 }

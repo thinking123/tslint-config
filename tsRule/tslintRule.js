@@ -22,7 +22,7 @@ var Rule = /** @class */ (function (_super) {
     Rule.prototype.apply = function (sourceFile) {
         return this.applyWithWalker(new NoImportsWalker(sourceFile, this.getOptions()));
     };
-    Rule.FAILURE_STRING = "custom sdfsdlfjdslfj  : sdlfjsdlfj import statement forbidden";
+    Rule.FAILURE_STRING = "custom  dskfjsdlkfjdslfjslkfjlsdfjalskfjskdlafjklsdfj";
     return Rule;
 }(Lint.Rules.AbstractRule));
 exports.Rule = Rule;
@@ -34,6 +34,10 @@ var NoImportsWalker = /** @class */ (function (_super) {
     }
     NoImportsWalker.prototype.visitImportDeclaration = function (node) {
         // create a failure at the current position
+        // failure
+        // const fix = new Lint.Replacement(node.getStart(), node.getWidth(), "");
+        // create a failure at the current position
+        // this.addFailure(this.createFailure(node.getStart(), node.getWidth(), CSRule.FAILURE_STRING, fix));
         this.addFailure(this.createFailure(node.getStart(), node.getWidth(), Rule.FAILURE_STRING));
         // call the base version of this visitor to actually parse this node
         _super.prototype.visitImportDeclaration.call(this, node);
