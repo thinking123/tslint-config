@@ -4,6 +4,10 @@
         "tslint:recommended"
     ],
     "jsRules": {},
-    "rules": {},
-    "rulesDirectory": []
+    "rules": {
+        "tslint":true
+    },
+    "rulesDirectory": [
+        "tsRule"
+    ]
 }

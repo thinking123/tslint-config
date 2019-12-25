@@ -1,0 +1,4 @@
+
+ERROR: index.ts:1:11 - Class name must be in pascal case
+ERROR: index.ts:1:11 - interface name must start with a capitalized I
+

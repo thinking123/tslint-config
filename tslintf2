@@ -1,0 +1,1 @@
+<pmd version="tslint"><file name="index.ts"><violation begincolumn="11" beginline="1" priority="3" rule="Class name must be in pascal case"></violation></file><file name="index.ts"><violation begincolumn="11" beginline="1" priority="3" rule="interface name must start with a capitalized I"></violation></file></pmd>

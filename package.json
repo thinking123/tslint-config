@@ -8,8 +8,8 @@
     "j": "clear & rollup main.js -f amd",
     "c": "clear & rollup -c",
     "w": "node bundle.js",
-    "lint": "tslint --fix -c tslint.json *.ts  ",
-    "ts": "tsc *.ts --outDir ts"
+    "lint": "tslint --fix -c tslint.json *.ts  --rules-dir tsRule ",
+    "ts": "tsc  rules/* --outDir tsRule"
   },
   "keywords": [],
   "author": "",

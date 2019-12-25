@@ -1,3 +1,5 @@
+import "sfsf.ts";
+
 interface ts {
     b: number;
     fun?: () => {};
@@ -6,3 +8,7 @@ interface ts {
 const b: ts = {
     b: 1212,
 };
+
+if (b) {
+    console.log("sdfsf");
+}
