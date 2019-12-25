@@ -14,12 +14,12 @@ class NoImportsWalker extends Lint.RuleWalker {
     public visitImportDeclaration(node: ts.ImportDeclaration) {
         // create a failure at the current position
         // failure
-        // const fix = new Lint.Replacement(node.getStart(), node.getWidth(), "");
+        const fix = new Lint.Replacement(node.getStart(), node.getWidth(), "");
         
         // create a failure at the current position
-        // this.addFailure(this.createFailure(node.getStart(), node.getWidth(), CSRule.FAILURE_STRING, fix));
+        this.addFailure(this.createFailure(node.getStart(), node.getWidth(), Rule.FAILURE_STRING, fix));
 
-        this.addFailure(this.createFailure(node.getStart(), node.getWidth(), Rule.FAILURE_STRING));
+        // this.addFailure(this.createFailure(node.getStart(), node.getWidth(), Rule.FAILURE_STRING));
 
         // call the base version of this visitor to actually parse this node
         super.visitImportDeclaration(node);
